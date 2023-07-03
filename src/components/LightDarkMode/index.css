@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  height: 40vh;
+  font-family: 'Roboto';
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.darkMode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.lightMode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.buttonMode {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonMode:hover {
+  cursor: pointer;
+}
